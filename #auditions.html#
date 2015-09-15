@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Auditions | Drawn to Scale A Cappella</title>
+    <meta name="description" content="I'm so tired god i hate life." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+
+
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="http://inst.eecs.berkeley.edu/~selfpace/img/Cal_Logo.png">
+    <style>
+    html,body {
+        height:100%;
+        background:center no-repeat fixed url('/img/auditions-header.jpg');
+        background-size: cover;
+        color:#444;
+        font-family: 'Lato', sans-serif;
+    }
+    </style>
+  </head>
+  <body >
+    <nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand text-danger" href="/index.html">Drawn to Scale</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapsible">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#section1">Auditions</a></li>
+                <li><a href="#section2">Sign Up</a></li>
+                <li><a href="#section3">FAQ</a></li><li><a href="#section3">FAQ</a></li>
+		
+                <li>&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="container-fluid" id="section1">
+    <div class="v-center">
+        <h1 class="text-center">Auditions</h1>
+        <h2 class="text-center lato animate slideInDown">Here's your chance to <strong>join</strong> us.</h2>
+        <p class="text-center">
+            <br>
+            <a href="#section2" class="btn btn-danger btn-lg btn-huge lato">Don't be Scared!</a>
+        </p>
+    </div>
+</section>
+
+<style>
+.bigger {
+    font-size: 20px;
+}
+</style>
+
+<section class="container-fluid" id="section2">
+    <h1 class="text-center">Sign Up</h1>
+    <div class="col-lg-6 col-lg-offset-3 col-md-4 col-md-offset-4 bigger">
+            <center><h3 class="text-center">Drawn to Scale is looking for talented singers, beatboxers, and arrangers!</h3>
+            <p>We are holding auditions for Fall 2015! All voice parts are welcome, including vocal percussion. Click here to sign up for a preliminary audition slot.</p>
+            <p>If you plan on auditioning, make sure you fill out and bring <a href="/audition_form.pdf" target="_blank">this form</a> to your preliminary audition.</p>
+            <p>For more information on the auditions process, take a look at the <a href="#section3">Frequently Asked Questions</a>. If you have any other questions or have problems regarding auditions and time slot availability, email us at <strong><a href="mailto:cal.drawntoscale@gmail.com">cal.drawntoscale@gmail.com</a></strong>. Also feel free to check out and RSVP to our <a href="https://www.facebook.com/events/412560285611258/" target="_blank">Facebook event</a>. We look forward to meeting you!</p></center>            
+    </div>
+</section>
+
+<section class="container-fluid" id="section3">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+            <h2 class="text-center lato">Frequently Asked Questions</h2>
+            <hr>
+            <div class="media">
+                <h3>Q. How do auditions work?</h3>
+                <div class="media-body media-middle">
+                    <p>A. Our audition process comprises a round of preliminary auditions with tests of vocal range, tonal memory, sight singing, and solo ability, and a second round of callbacks. Preliminary auditions last 15-20 minutes. You will be notified a few hours to a few days after your preliminary audition about whether you have made it through to callbacks. Callbacks can take up to the entire day depending upon how many auditionees are called back. However, we do make accommodations for those with time constraints.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3>Q. What do I need to do to prepare for a preliminary audition?</h3>
+                <div class="media-body media-middle">
+                    <p>A. We strongly recommend that auditionees warmup prior to the preliminary audition, as we will be testing your upper and lower range, and ability to follow our warmup exercise. We do assume most of our auditionees to be able to sight read music so it might be worthwhile to brush up on that a little bit. We also expect auditionees to prepare a solo piece between 1-2 minutes long – about the length of a verse and chorus of a pop song.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3>Q. But I can’t sight read! What should I do?</h3>
+                <div class="media-body media-middle">
+                    <p>A. Some sight-reading ability is expected. However, sight-singing remains very difficult for most musicians, and we do not expect perfection. In the audition, we look for ability follow rhythm and basic intervals. Additonally, we have tonal memory exercises to see how well members can learn music by ear. The purpose of these tests is to see how quickly you pick up new music, as we do expect members to learn music fast.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3>Q. What should I sing for my audition?</h3>
+                <div class="media-body media-middle">
+                    <p>A. While there are no strict guidelines on what to sing for your solo, we ask that you prepare a piece in English, in a genre that we perform. Pop, rock, jazz, R&B, Broadway songs are good choices. Practice singing your solo a cappella, in a key you’re comfortable with.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3>Q. But I’m nervous!</h3>
+                <div class="media-body media-middle">
+                    <p>A. We know. We understand that the audition process can be a nerve-wracking one. We’ve been there and were probably nervous trainwrecks at our own auditions, so we understand. We’ll try to get you to relax so you can perform to the best of your abilities.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3>Q. How do callbacks work?</h3>
+                <div class="media-body media-middle">
+                    <p>A. If you are given a callback, congratulations! You will be given 1-2 short pieces to learn. The purpose of this is to see how well your voice is able to blend with the current group. You will also be asked to perform your solo piece again, along with some of the exercises from the preliminary audition individually in front of all of the members of the current group.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3>Q. How is DtS different from all the other groups?</h3>
+                <div class="media-body media-middle">
+                    <p>A. Drawn to Scale coalesced in Fall of 2008, so we are still fairly young and figuring ourselves out. As a result, we are constantly striving to make ourselves known, through creating innovative arrangements and finding new ways to beome more involved in the Cal community. Being part of such a new group requires a lot of hard work and dedication, but can also be very rewarding as we establish precedents that can be followed by Drawn to Scale for years to come. We also consider ourselves a very social a cappella group, and are always planning dinners, parties, and retreats in order to facilitate group bonding and have fun. Our hope is that DtS can be not just a place to make great music, but also a place to make great friends.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3>Q. What are the time commitments involved?</h3>
+                <div class="media-body media-middle">
+                    <p>A. Our rehearsals are Monday and Wednesdays 7-9:30 pm, apart from weekly one-hour sectionals. We also have weekly Sproul performances on Friday at noon, with warmups beginning at 11.15 am. We also have other events during the semester as well as a concert at the end of each semester. We expect members to be able to make all rehearsals and Sproul performances, and a number of other events. Being a member of an a cappella group could be a significant time commitment, but we enjoy every moment spent together as a performance group. All our members can tell you that they have a lot of fun performing and making memories with the group.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3>Q. Should I audition again if I have auditioned previously?</h3>
+                <div class="media-body media-middle">
+                    <p>A. Definitely! Selections at the preliminary and the callback levels are always very difficult for us due to our limited time and the number of voices per part we need changes from semester to semester. We have seen many wonderful singers who showed great promise and simply needed a little bit more of experience in one area or another. Especially if we asked you to work on something in your previous audition, we would love to see you again. Some of our members have also auditioned multiple times before getting into the group, so don’t be afraid to re-audition.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-3 column">
+                <h4>Follow Us</h4>
+                <ul class="nav">
+                    <li><a href="https://www.facebook.com/dtsacapella?fref=ts" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.youtube.com/user/dtsacappella" target="_blank">Youtube</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3 column">
+                <h4>Contact Us</h4>
+                <ul class="nav">
+                    <li><a href="mailto:cal.drawntoscale@gmail.com">Email Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/row-->
+        <p class="text-center" style="font-size:10px;">© Drawn to Scale A Cappella 2015 | Design by <a href="http://www.jzlwang.com" target="_blank">Judy Wang</a></p>
+    </div>
+</footer>
+
+<div class="scroll-up">
+	<a href="#"><i class="fa fa-angle-up"></i></a>
+</div>
+    <!--scripts loaded here-->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
