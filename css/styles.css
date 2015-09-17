@@ -194,6 +194,7 @@ section {
 #section5 {
   padding-top: 0px;  
 	background-color: #fff;
+  overflow: scroll;
 }
 
 #section6 {
