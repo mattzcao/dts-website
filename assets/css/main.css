@@ -112,7 +112,7 @@ body
 	color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #FFF;
+    /*background-color: #FFF;*/
 }
 .navbar-fixed-top .navbar-toggle .icon-bar {
     background-color: #313131;
