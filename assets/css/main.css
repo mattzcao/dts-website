@@ -34,10 +34,11 @@
 ==================================================*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:200,400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 body
 {
-	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-family: 'Lato', sans-serif;
 	overflow-x: hidden;
 	color: #313131;
 }
@@ -62,7 +63,7 @@ body
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 5px;
 }
 .section-item-title{
 	font-size: 20px;
@@ -71,11 +72,11 @@ body
 	text-transform: uppercase;
 }
 .section-item-detail{
-	font-size: 18px;
+	font-size: 16px;
     font-weight: 100;
     margin-bottom: 50px;
-    color: #666;
-    letter-spacing: 1px;
+    color: #222;
+    letter-spacing: 0.5px;
     text-align: center;
 }
 .underline{
@@ -181,7 +182,7 @@ body
 ||				4. Our Service
 ==================================================*/
 .service{
-	background: #ededed;
+	background: #fdfdfd;
 	position: relative;
 }
 .service .section-title{
@@ -199,17 +200,16 @@ body
 }
 
 .twitter-feed{
-	background: 
+	background:
 		linear-gradient(
-	      rgba(0, 0, 0, 0.7), 
-	      rgba(0, 0, 0, 0.7)
+	      rgba(0, 0, 0, 0.8), 
+	      rgba(0, 0, 0, 0.8)
 	    ),
-		url('../images/video-bg.jpg');
-	color: #fff;
-	-moz-box-shadow: inset 0 0 20em #000;  
-	-webkit-box-shadow: inset 0 0 20em #000;   
-	box-shadow: inset 0 0 20em #000;
+		url('../images/index-header.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .item{
 	text-align: center;
@@ -437,17 +437,17 @@ a .rss:hover{
 ==================================================*/
 /*Testimonial*/
 .testimonial{
-	background: 
+	background:
 		linear-gradient(
-	      rgba(0, 0, 0, 0.7), 
-	      rgba(0, 0, 0, 0.7)
+	      rgba(0, 0, 0, 0.8), 
+	      rgba(0, 0, 0, 0.8)
 	    ),
-		url('../images/faq-bg.jpg');
+		url('../images/auditions-header.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
 	background-size: cover;
+	background-attachment: fixed;
 	color: #fff;
-	-moz-box-shadow: inset 0 0 20em #000;  
-	-webkit-box-shadow: inset 0 0 20em #000;   
-	box-shadow: inset 0 0 20em #000;
 }
 .testimonial .section-title{
 	color: #fff;
