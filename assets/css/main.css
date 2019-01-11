@@ -89,12 +89,12 @@ body
 ==================================================*/
 .header
 {
-	background: url('../images/sp18-index-header.png');
+	background: url('../images/index-header.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	overflow: auto;
 	background-attachment: fixed;
-	height: 100vh;
 	color: #fff;
 	text-transform: uppercase;
 
@@ -205,7 +205,7 @@ body
 	      rgba(0, 0, 0, 0.8), 
 	      rgba(0, 0, 0, 0.8)
 	    ),
-		url('../images/sp18-index-header.jpg');
+		url('../images/index-header.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
