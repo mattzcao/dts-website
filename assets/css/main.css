@@ -89,7 +89,7 @@ body
 ==================================================*/
 .header
 {
-	background: url('../images/index-header.jpg');
+	background: url('../images/index-header_promosp19.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: auto;
@@ -205,7 +205,7 @@ body
 	      rgba(0, 0, 0, 0.8),
 	      rgba(0, 0, 0, 0.8)
 	    ),
-		url('../images/index-header.jpg');
+		url('../images/index-header_promosp19.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
