@@ -46,10 +46,10 @@
 	text-transform: uppercase;
 }
 .breadcrumb{
-    padding: 235px 15px 0px;
+    padding: 350px 15px 0px;
     list-style: none;
     background-color: transparent;
-    border-radius: 0px;
+	border-radius: 0px;
 }
 .breadcrumb .active{
 	color: #fff;
