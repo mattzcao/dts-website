@@ -89,7 +89,7 @@ body
 ==================================================*/
 .header
 {
-	background: url('../images/fa19-index-background.jpg');
+	background: url('../images/index-header');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: auto;
@@ -204,7 +204,7 @@ body
 	      rgba(0, 0, 0, 0.8),
 	      rgba(0, 0, 0, 0.8)
 	    ),
-		url('../images/fa19-index-background.jpg');
+		url('../images/index-header.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
