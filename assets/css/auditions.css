@@ -17,6 +17,7 @@
 
 .price-table{
 	background: #ededed;
+	text-align: center;
 }
 .price-table .col-sm-3{
 	padding: 0px;
@@ -28,6 +29,7 @@
 	background: #f9f9f9;
 	padding: 20px;
 	font-size: 24px;
+	text-align: center;
 }
 .price-title span{
 	font-size: 16px;
