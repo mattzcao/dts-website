@@ -13,7 +13,8 @@
 
 .section-item-detail{
 	text-align: center;
-	/*max-width: 700px;*/
+	max-width: 700px;
+	margin: 0 auto 30px;
 }
 .servicesTwo{
 	margin-left: auto;
