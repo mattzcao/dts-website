@@ -46,7 +46,7 @@
 }
 
 .team-item{
-	/*flex: 1 0 30%;*/
+	flex: 1 0 30%;
 	background: #f3f3f3;
 	/*margin-bottom: 50px;*/
 	margin: 5px;
@@ -54,8 +54,8 @@
 	text-align: center;
 }
 .team-img{
-	width: 90%;
-	/*min-width: 20%*/
+	/*width: 90%;*/
+	min-width: 20%
 }
 .wrap {
 	position: relative;
