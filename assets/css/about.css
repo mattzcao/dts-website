@@ -41,11 +41,13 @@
 .team-item{
 	flex: 1 0 21%;
 	background: #f3f3f3;
-	margin-bottom: 50px;
+	/*margin-bottom: 50px;*/
+	margin: 10px;
+	height: 200px;
 	text-align: center;
 }
 .team-img{
-	width: 100%;
+	width: 90%;
 }
 .wrap {
 	position: relative;
