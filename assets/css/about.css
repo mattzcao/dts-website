@@ -33,6 +33,9 @@
 	background: #ededed;
 }
 
+.formatting {
+	width: 80%;
+}
 .row {
 	display: flex;
 	flex-wrap: wrap;
