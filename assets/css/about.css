@@ -10,6 +10,7 @@
 	background-repeat: no-repeat;
 	height: 50vh;
 }
+
 .about{
 	background: #f3f3f3;
 }
@@ -31,7 +32,14 @@
 .team{
 	background: #ededed;
 }
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .team-item{
+	flex: 1 0 21%;
 	background: #f3f3f3;
 	margin-bottom: 50px;
 	text-align: center;
