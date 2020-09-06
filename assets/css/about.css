@@ -46,8 +46,7 @@
 }
 
 .team-item{
-	/*flex: 1 0 26%;*/
-	width: 30%;
+	flex: 1 0 26%;
 	background: #f3f3f3;
 	/*margin-bottom: 50px;*/
 	margin: 5px;
