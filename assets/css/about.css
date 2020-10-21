@@ -43,9 +43,10 @@
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	/*width: 100%;*/
+	width: 100%;
 	/*max-width: 1000px;*/
 	/*min-width: 500px;*/
+	justify-content: center
 }
 
 .team-item{
