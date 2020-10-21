@@ -96,6 +96,7 @@ body
 	background-attachment: fixed;
 	height: 100vh;
 	text-transform: uppercase;
+	justify-content: center;
 
 }
 			/*navbar*/
