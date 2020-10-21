@@ -43,10 +43,11 @@
 .row {
 	display: flex;
 	flex-wrap: wrap;
+	max-width: 1000px;
 }
 
 .team-item{
-	flex: 1 0 30%;
+	/*flex: 1 0 30%;*/
 	flex-wrap: wrap;
 	background: #f3f3f3;
 	/*margin-bottom: 50px;*/
