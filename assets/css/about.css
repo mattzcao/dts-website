@@ -56,8 +56,8 @@
 .team-item{
 	/*flex: 1 0 30%;*/
 	flex-basis: 300px;
-	max-width: 33%;
-	min-width: 250px;
+	max-width: 300%;
+	min-width: 260px;
 	background: #f3f3f3;
 	/*margin-bottom: 50px;*/
 	margin: 5px;
