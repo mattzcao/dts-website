@@ -6,8 +6,7 @@
 |
 |
 */
-.iPad
-{
+.iPad {
 	position: absolute;
 	top: 100px;
 	transform: translateY(-50%);
@@ -36,13 +35,25 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-body
-{
+@font-face {
+	font-family: 'MOMCAKE-Thin';
+	src: url('../fonts/momcake/MOMCAKE-Thin.otf') format('opentype');
+	/* Add other font properties if needed, like font-weight and font-style */
+  }
+  
+  @font-face {
+	font-family: 'MOMCAKE-Bold';
+	src: url('../fonts/momcake/MOMCAKE-Bold.otf') format('opentype');
+	/* Add other font properties if needed, like font-weight and font-style */
+	font-weight: bold; /* Specify that this font is for bold text */
+  }
+
+body {
 	font-family: 'Lato', sans-serif;
 	overflow-x: hidden;
 	color: #313131;
 }
-.black{
+.black {
 	color: #313131;
 }
 .white{
@@ -54,17 +65,34 @@ body
 .purple{
 	background: #300462;
 }
+
+h3 {
+	font-size:36px;
+}
+
+.dark-mode>a, .dark-mode>b>a, .dark-mode>div>div>p>a {
+	color: #b096f3;
+}
+
 .section-wrapper{
 	padding-top: 90px;
 	padding-bottom: 80px;
 }
 .section-title{
-	font-size: 30px;
+	font-size: 60px;
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 5px;
+
+	font-family: 'MOMCAKE-Bold', Helvetica, Arial, sans-serif;
 }
+
+h3 { 
+	font-family: 'MOMCAKE-Thin', Helvetica, Arial, sans-serif;
+
+}
+
 .section-item-title{
 	font-size: 20px;
 	font-weight: 400;
@@ -79,16 +107,25 @@ body
     letter-spacing: 0.5px;
     text-align: center;
 }
+.dark-mode {
+	color:#ddd;
+}
 .underline{
 	height: 2px;
 	width: 50px;
 	margin: 0px auto 60px;
+	background-color:#000;
+}
+.underline-white{
+	height: 2px;
+	width: 50px;
+	margin: 0px auto 60px;
+	background-color:#fff;
 }
 /*=================================================
 ||				3. Header
 ==================================================*/
-.header
-{
+.header {
 	background: url('../images/dtsICCAwinreaction.png');
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -97,20 +134,24 @@ body
 	height: 100vh;
 	text-transform: uppercase;
 	justify-content: center;
-
 }
 			/*navbar*/
 .navbar-default .navbar-brand{
-	border: 1px solid #fff;
 	color: #fff;
 	font-size: 30px;
 	padding: 10px 20px;
 	height: auto;
 	font-weight: 200;
-	letter-spacing: 5px;
+	letter-spacing: 5px;;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
 	color: #fff;
+}
+.nav ul{
+	display:inline-block
+}
+.nav {
+	text-align:center;
 }
 .navbar-default .navbar-toggle .icon-bar {
     /*background-color: #FFF;*/
@@ -129,8 +170,10 @@ body
 .navbar-default .navbar-nav>li>a{
 	color: #fff;
     /*text-transform: uppercase;*/
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
+	margin-left:4px;
+	margin-right:4px;
     border: 1px solid transparent;
     font-size: 12px;
     font-weight: 300;
@@ -158,16 +201,41 @@ body
     border: 1px solid rgba(255, 255, 255, 0.6);
     color: #fff;
 }
+
 		/*Home*/
 .header-wrapper{
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+	height:100%;
+	
 }
+
+.hero-logo{
+	position: absolute;
+	/*width: 700px;*/
+	width: 50vw;
+  	top: calc(50vh - 30px);
+  	/*left: calc(50vw - 350px);*/
+	left: calc(25vw);
+}
+/*@media only screen and (max-width: 990px) {
+	.hero-logo {
+		width: 400px;
+		top: calc(50vh - 30px);
+		left: calc(50vw - 200px);
+	}
+	
+}*/
+
 .header-table{
 	display: table;
 	height: 70vh;
 	width: 100%;
+	vertical-align:middle;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 .header-title{
 	font-size: 50px;
@@ -205,9 +273,9 @@ body
 	      rgba(0, 0, 0, 0.8),
 	      rgba(0, 0, 0, 0.8)
 	    ),
-		url('../images/dtsICCAwinreaction.png');
+		url('../images/carouselbg-ayanna-icca.png');
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -294,6 +362,7 @@ body
 .portfolio-img-hover{
 
 }
+
 .plus{
 	display: none;
 }
@@ -391,6 +460,12 @@ footer{
 }
 .rss{
 	background: #ff8f00;
+	border-color: #ff8f00;
+}
+.instagram{
+	background: #d62976;
+	background: linear-gradient(to top right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+	border-color: white;
 }
 
 .icon{
@@ -402,8 +477,13 @@ footer{
 	border: 1px solid transparent;
 	font-size: 18px;
 }
+
 a .icon{
 	color: #dadada;
+}
+
+a:visited .icon { 
+	text-decoration:none;
 }
 /*.social-icon{
 	float: right;
@@ -422,6 +502,10 @@ a .twitter:hover{
 a .youtube:hover {
 	color: #e52d27;
 	border-color: #b31217;
+}
+a .instagram:hover {
+	color: #d62976;
+	border-color: #d62976;
 }
 a .google:hover{
 	color: #c62828;
@@ -451,6 +535,7 @@ a .rss:hover{
 }
 .testimonial .section-title{
 	color: #fff;
+
 }
 .testimonial-detail{
 	font-style: italic;
@@ -533,7 +618,8 @@ a .rss:hover{
 	.navbar-default .navbar-brand{
 		margin-left: 15px;
 	}
-		img.about-img {
+
+	img.about-img {
 	    width: 100%;
 	    padding: 15px 15px 0px;
 	}
@@ -543,4 +629,12 @@ a .rss:hover{
 }
 @media (max-width: 320px){
 
+}
+
+
+.crossover-logo { 
+	z-index: 2;
+	position: absolute;
+  	top: calc(100vh - 86px);
+  	left: calc(50vw - 125px);
 }

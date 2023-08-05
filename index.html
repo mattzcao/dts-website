@@ -7,6 +7,7 @@
 			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
 		<title>Drawn to Scale - UC Berkeley Co-ed A Cappella</title>
+		<link rel="shortcut icon" type="image/jpg" href="assets/images/favicon/favicon.ico"/>
 
 		<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="./assets/css/ionicons.min.css">
@@ -25,6 +26,22 @@
           ga('send', 'pageview');
 
         </script>
+
+		<style>
+			body { 
+				margin:0;
+				padding:0;
+				
+				background-color:#160f1e;
+				background: url('./assets/images/HERO-chloe-sri.png');
+				background-repeat: no-repeat;
+				background-position: center center;
+				
+				background-attachment: fixed;
+				background-size:cover;
+				height: 100vh;
+			}
+		</style>
 	</head>
 
 <body>
@@ -37,7 +54,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <!-- Home -->
-	<section class="header" id="header">
+	<section class="header" id="header" style="z-index:1;">
 
 		<nav class="navbar navbar-default">
 			<div class="container">
@@ -49,14 +66,13 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="/">Drawn to Scale</a>
 				</div> <!-- /.navbar-header -->
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
+					<ul class="nav navbar-nav">
 						<li class="active"><a href="/">home</a></li>
-						<li><a href="./about/">about us</a></li>
+						<li><a href="./about/index.html">about us</a></li>
 						<!-- <li><a href="https://forms.gle/rbDamWxtJo1FTHRv8">Concert Tickets</a></li> -->
 						<li><a href="./auditions.html">auditions</a></li>
 						<li><a href="./repertoire.html">repertoire</a></li>
@@ -68,52 +84,54 @@
 		</nav>
 		<div class="container">
 			<div class="header-table">
+				<center>
 				<div class="header-wrapper">
+					<img class="hero-logo" src="./assets/images/hero-center-logo.svg">
 				</div> <!-- /.header-wrapper -->
+				</center>
 			</div>
 		</div> <!-- /.container -->
 	</section> <!-- /#header -->
 
-
+	<div class="crossover-logo">
+		<img src="./assets/images/dts-logo-sp23.png"width="250px"height="250px">
+	</div>
 <!-- About Us -->
-	<section class="service" id="service">
+	<section class="dark-mode service" id="service" style="z-index:1; padding-top:70px; background-color:#160f1ecb; margin-top:0px">
 		<div class="container">
 			<div class="_section-wrapper">
 				<div class="row" align="center">
-					<p class="section-item-detail" style="margin-top: 60px;"><img src="./assets/images/logo_new.png"  width="200" 
-						height="200"></p>
-					<h2 class="section-title black">about us</h2> <!-- /.section-title -->
-					<div class="underline purple" style="margin-bottom: 15px;"></div>
-					<p class="section-item-detail" style="font-size: 16px;">
-					We are a co-ed a cappella group founded at UC Berkeley in 2008. DtS is a diverse group of caring, dedicated, and talented students who come together to share in their passion for performing and love for one another. They continuously strive to maintain a high standard of musicality while bringing music to life in innovative and exciting ways.<br>
-					From Sproul to soup kitchens, Alottacappella, GBO, and ICCA, you can <a href="/bookings.html">shoot us a message</a> to book us for your event! <br>
-					<a href="https://drawntoscale.berkeley.edu/about/">Learn more about us here</a> and check out our <a href="https://www.instagram.com/drawntoscaleberkeley/?hl=en">instagram</a> to stay updated!
+					<h2 class="section-title black dark-mode">ABOUT US</h2> <!-- /.section-title -->
+					<div class="underline" style="margin-bottom: 15px;"></div> <!--Divider box-->
+					<p class="section-item-detail dark-mode" style="width:50vw">
+					Drawn to Scale (DtS) is a co-ed a cappella group at UC Berkeley composed of a diverse group of dedicated, caring, and talented students. They continuously strive to maintain a high standard of musicality while bringing student-made arrangements to life in exciting and innovative ways.
+					
+					From pop to contemporary, rock, indie, R&B, DtS has a wide-ranging <a href="./repertoire.html">repertoire</a> ready to perform for any event. If you are interested in booking DtS, find our contact at our <a href="./bookings.html">bookings</a> page.
 				    </p>
 			        <div class="col-md-4 contact-item col-sm-6 col-xs-12 services">
-		                <h3>LIKE US ON FACEBOOK</h3>
-		                <div class="underline purple" style="margin-bottom: 15px;"></div>
-		                <p class="contact">
-		                    <div class="fb-page" data-href="https://www.facebook.com/dtsacappella/" data-width="330" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/dtsacappella/"><a href="https://www.facebook.com/dtsacappella/">Drawn to Scale A Cappella</a></blockquote></div></div>
-		                </p>
+		                <h3 class="dark-mode">FOLLOW US</h3>
+						<div class="underline" style="margin-bottom: 15px; background: #eee"></div>
+						<iframe src="https://www.instagram.com/p/CvdfP0OP1e_/embed" width="350" height="420" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
 		            </div>
+
 		            <div class="col-md-4 contact-item col-sm-6 col-xs-12">
-		                <h3>AUDITIONS</h3>
-		                <div class="underline purple" style="margin-bottom: 15px;"></div>
-		                <p class="contact">
-		                    DtS holds auditions every semester, and we are looking for talented singers/beatboxers like you!<br><br>
-												<b>We are holding Fall 2023 Auditions Online for all voice parts.
-													<!--Auditions are open!! <a href="https://drawntoscale.berkeley.edu/auditions.html">See our Auditions page for more info!</a>-->
-												</b>
-												<br><br>
+		                <h3 class="dark-mode">AUDITIONS</h3>
+		                <div class="underline" style="margin-bottom: 15px; background:#eee;"></div>
+		                <p class="contact dark-mode">
+		                    DtS holds auditions every semester, and we are looking for talented singers/beatboxers like you!
+							<br><br>
+							<b>Currently auditions for Fall 2023 are not open, but an interest form is available at our <a href="./auditions.html">auditions page</a>.
+							</b>
+							<br><br>
 		                    Feel free to <a href="mailto:cal.drawntoscale@gmail.com">email us</a> at <b>cal.drawntoscale@gmail.com</b> with any questions!<br><br>
 							<img src="./assets/images/tenorsfa22.jpg" width="330px"><br><br>
 		                    <!-- We are currently not holding auditions. Check back here later for information or follow our <a href="https://www.instagram.com/drawntoscaleberkeley/?hl=en">instagram</a> for updates. Feel free to <a href="mailto:cal.drawntoscale@gmail.com">email us</a> at <b>cal.drawntoscale@gmail.com</b> with any questions! -->
 		                </p>
 			        </div>
 			        <div class="col-md-4 contact-item col-sm-6 col-xs-12 services">
-		                <h3>SEE US ON SPROUL</h3>
-		                <div class="underline purple" style="margin-bottom: 15px;"></div>
-		                <p class="contact">
+		                <h3 class="dark-mode">SEE US ON SPROUL</h3>
+		                <div class="underline" style="margin-bottom: 15px; background:#eee"></div>
+		                <p class="contact dark-mode">
 		                	<img src="./assets/images/sproul_2023.jpeg" width="330px"><br><br>
 		                    Come see DtS perform every Friday at 12PM on Sproul under Sather Gate!
 		                </p>
@@ -125,74 +143,64 @@
 
 
 <!-- Twitter Feed -->
-	<section class="twitter-feed purple">
+	<section class="twitter-feed">
 		<div class="container section-wrapper">
 			<h2 class="section-title white2">
-				check out our recordings
+				OUR PERFORMANCES
 			</h2> <!-- /.section-title -->
-			<div class="underline white"></div>
+			<div class="underline-white"></div>
 			<div class="owl-carousel twitter-owl">
-				<div class="item"> <!-- Location -->
+				<div class="item"> <!--1 | I Guess That's Why They Call It the Blues (opb. Alessia Cara) | Spr2023-->
+					<p class="feed">
+						<iframe width="65%" height="370" src="https://www.youtube.com/embed/ho99rdcQp64" frameborder="0" allowfullscreen></iframe>
+					</p>
+				</div>
+				<div class="item"> <!--2 | Location (opb. Khalid) | Spr2023-->
 					<p class="feed">
 						<iframe width="65%" height="370" src="https://www.youtube.com/embed/7KMVqcWMyv0" frameborder="0" allowfullscreen></iframe>
 					</p>
 				</div>
-				<div class="item"> <!-- ICCA 2020 -->
+				<div class="item"> <!--3 | American Boy, ICCA Quarterfinals Performance (Orchestra Level) | 2020-->
 					<p class="feed">
 						<iframe width="65%" height="370" src="https://www.youtube.com/embed/5FLtlIEjGLg?start=64" frameborder="0" allowfullscreen></iframe>
 					</p>
 				</div>
-				<div class="item"> <!-- ghostin -->
+				<div class="item"> <!--4 | Ghostin, West Coast A Capella Showcase | 2019-->
 					<p class="feed">
 						<iframe width="65%" height="370" src="https://www.youtube.com/embed/SWq-RclOE-w" frameborder="0" allowfullscreen></iframe>
 					</p>
 				</div>
-				<div class="item"> <!-- make it rain -->
+				<div class="item"> <!--5 | make it rain -->
 					<p class="feed">
 						<iframe width="65%" height="370" src="https://www.youtube.com/embed/OPN21LC3u08?start=49" frameborder="0" allowfullscreen></iframe>
 					</p>
 				</div>
-				<div class="item"> <!-- i wanna dance with somebody -->
-					<p class="feed">
-						<iframe width="65%" height="370" src="https://www.youtube.com/embed/u9jr-hxoeR8?start=3" frameborder="0" allowfullscreen></iframe>
-					</p>
-				</div>
-				<div class="item"> <!-- pyro-->
-					<p class="feed">
-						<iframe width="65%" height="370" src="https://www.youtube.com/embed/qsPV4eL12y4?start=4" frameborder="0" allowfullscreen></iframe>
-					</p>
-				</div>
-				<div class="item"> <!-- dancing in the moonlight -->
+				<div class="item"> <!--6 | Dancing in the Moonlight (opb. Toploader) | Fall18-->
 					<p class="feed">
 						<iframe width="65%" height="370" src="https://www.youtube.com/embed/PgG76Ubh7VI" frameborder="0" allowfullscreen></iframe>
 					</p>
 				</div>
-				<div class="item"> <!-- the blues -->
-					<p class="feed">
-						<iframe width="65%" height="370" src="https://www.youtube.com/embed/1YTVlPCFaa0" frameborder="0" allowfullscreen></iframe>
-					</p>
-				</div>
-				<div class="item"> <!-- Ease my mind -->
+				<div class="item"> <!--7 | Ease my mind -->
 					<p class="feed">
 						<iframe width="65%" height="370" src="https://www.youtube.com/embed/0r4YcShzQWw" frameborder="0" allowfullscreen></iframe>
 					</p>
 				</div>
-				<div class="item"> <!-- west coast 2018 feelin good -->
+				<div class="item"> <!--8 | Feelin Good, West Coast A Capella Showcase | 2018-->
 					<p class="feed">
 						<iframe width="65%" height="370" src="https://www.youtube.com/embed/UwJ2pXANQW4" frameborder="0" allowfullscreen></iframe>
 					</p>
 				</div>
-				<div class="item"> <!-- schoolin life -->
+				<div class="item"> <!--[9] schoolin life -->
 					<p class="feed">
 						<iframe width="65%" height="370" src="https://www.youtube.com/embed/5yt5sHzPZjo?start=31" frameborder="0" allowfullscreen></iframe>
 					</p>
 				</div>
-				<div class="item"> <!-- dance with me tonight -->
+				<div class="item"> <!--[10] dance with me tonight -->
 					<p class="feed">
 						<iframe width="65%" height="370" src="https://www.youtube.com/embed/4Yn9oA_xIfE" frameborder="0" allowfullscreen></iframe>
 					</p>
 				</div>
-				<div class="item"> <!-- river -->
+				<div class="item"> <!--[11] river -->
 					<p class="feed">
 						<iframe width="65%" height="370" src="https://www.youtube.com/embed/lbUT5zb7YFY" frameborder="0" allowfullscreen></iframe>
 					</p>
@@ -208,10 +216,12 @@
 		<h2 class="section-title black">
 				hire us
 			</h2> <!-- /.section-title -->
-			<div class="underline purple"></div>
-			<p class="quote" style="text-align: center;">
+			<div class="underline"></div>
+			<center>
+			<p class="quote" style="width:50vw;">
 				Drawn to Scale would love to sing for you! For details on how to contact us for a booking, visit our <a href="/bookings.html">Bookings</a> page. We will get back to you as soon as we can!
 			</p> <!-- /.quote -->
+			</center>
 		</div> <!-- /.container -->
 	</section> <!-- /.fun -->
 
@@ -232,17 +242,22 @@
 				</div>
 				<div class="col-sm-4 text-center">
 					<div class="social-icon">
-						<a href="https://www.facebook.com/dtsacappella?fref=ts">
+						<a href="https://www.facebook.com/dtsacappella?fref=ts" target="_blank">
 							<div class="icon fb">
 								<i class="ion-social-facebook"></i>
 							</div>
 						</a>
-						<a href="https://www.youtube.com/user/dtsacapella">
+						<a href="https://www.youtube.com/user/dtsacapella" target="_blank">
 							<div class="icon youtube">
 								<i class="ion-social-youtube"></i>
 							</div>
 						</a>
-						<a href="https://twitter.com/dts_acappella">
+						<a href="https://www.instagram.com/drawntoscaleberkeley/" target="_blank">
+							<div class="icon instagram">
+								<i class="ion-social-instagram"></i>
+							</div>
+						</a>
+						<a href="https://twitter.com/dts_acappella" target="_blank">
 							<div class="icon twitter">
 								<i class="ion-social-twitter"></i>
 							</div>
