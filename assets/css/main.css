@@ -14,23 +14,28 @@
 	right: 0;
 }
 /*=================================================
-||				Index
+||						Index
 ==================================================*/
 /*
-|	1. Imports
-|	2. Global
-|	3. Colors
+|	=============
+|	GLOBAL
+|	=============
+|	1. Fonts
+|	2. Colors
+|   3. Page styling
 |
 |	=============
-|	SECTIONS
+|	PAGE SPECIFIC
 |	=============
 |	4. Home
 */
 
 
 /*=================================================
-||				1. Imports
+||				      GLOBAL
 ==================================================*/
+
+/*============== 1. Fonts ===============*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:200,400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
@@ -39,20 +44,32 @@
 	font-family: 'MOMCAKE-Thin';
 	src: url('../fonts/momcake/MOMCAKE-Thin.otf') format('opentype');
 	/* Add other font properties if needed, like font-weight and font-style */
-  }
-  
-  @font-face {
+}
+@font-face {
 	font-family: 'MOMCAKE-Bold';
 	src: url('../fonts/momcake/MOMCAKE-Bold.otf') format('opentype');
 	/* Add other font properties if needed, like font-weight and font-style */
 	font-weight: bold; /* Specify that this font is for bold text */
-  }
+}
+
+/*================= 2. Colors ================*/
+:root {
+	--grayson: #eee;
+}
+
+
+
+/*====================================================
+||              2. Mobile Responsiveness
+=====================================================*/
+
 
 body {
 	font-family: 'Lato', sans-serif;
 	overflow-x: hidden;
 	color: #313131;
 }
+
 .black {
 	color: #313131;
 }
@@ -115,6 +132,9 @@ h3 {
 	width: 50px;
 	margin: 0px auto 60px;
 	background-color:#000;
+}
+.dm-underline {
+	background:#eee;
 }
 .underline-white{
 	height: 2px;
@@ -246,9 +266,11 @@ h3 {
 	font-size: 20px;
 	letter-spacing: 3px;
 }
+
 /*=================================================
 ||				4. Our Service
 ==================================================*/
+
 .service{
 	background: #fdfdfd;
 	position: relative;
@@ -311,6 +333,7 @@ h3 {
 /*=================================================
 ||				5. Twitter Feed
 ==================================================*/
+
 .day, .feed{
 	font-size: 15px;
 	font-weight: 200;
@@ -334,9 +357,11 @@ h3 {
 .item:hover{
 	cursor: w-resize;
 }
+
 /*=================================================
 ||				7. Portfolio
 ==================================================*/
+
 .porfolio{
 	background: #f9f9f9;
 }
@@ -394,6 +419,7 @@ h3 {
 /*=================================================
 ||				8. Note
 ==================================================*/
+
 .note{
 	color: #dadada;
 }
@@ -402,7 +428,8 @@ h3 {
 	font-weight: 200;
 	padding: 0px 145px;
 }
-.quoter{
+
+.quoter {
 	font-size: 20px;
 	font-weight: 400;
 	margin-top: 20px;
@@ -411,6 +438,7 @@ h3 {
 /*=================================================
 ||				9. Fun Facts
 ==================================================*/
+
 .fun{
 	background: #f3f3f3;
 }
@@ -432,6 +460,7 @@ h3 {
 .col-sm-6 .fun-box{
 	margin-bottom: 20px;
 }
+
 /*=================================================
 ||				10. Footer
 ==================================================*/
@@ -467,7 +496,6 @@ footer{
 	background: linear-gradient(to top right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
 	border-color: white;
 }
-
 .icon{
 	height: 40px;
 	width: 40px;
