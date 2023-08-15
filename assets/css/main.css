@@ -231,21 +231,13 @@ h3 {
 	
 }
 
-.hero-logo{
-	position: absolute;
-	/*width: 700px;*/
-	width: 50vw;
-  	top: calc(50vh - 30px);
-  	/*left: calc(50vw - 350px);*/
-	left: calc(25vw);
-}
+
 /*@media only screen and (max-width: 990px) {
 	.hero-logo {
 		width: 400px;
 		top: calc(50vh - 30px);
 		left: calc(50vw - 200px);
 	}
-	
 }*/
 
 .header-table{
