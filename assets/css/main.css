@@ -563,9 +563,7 @@ a .rss:hover{
 	font-weight: 200;
 	margin-bottom: 50px;
 }
-.test-name {
-    margin-bottom: 40px;
-}
+
 /*Owl carousel*/
 .owl-theme .owl-controls .owl-nav [class*=owl-]{
 	background: transparent;
