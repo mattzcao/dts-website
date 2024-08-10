@@ -19,10 +19,13 @@ and you should see all your changes on drawntoscale.berkeley.edu
 
 
 # Site Organization
-Notes from last webmaster (Matthew Cao):
+Notes from the previous webmaster (Matthew Cao):
 If I haven't razed the entire website to the ground and redesigned it yet, you can tell this is a little bit of a clusterfuck. I mean just look at how the about me pages are made and how they are seperate pages instead of just a jQuery card.
 
 Anyway, let's create some conventions for file naming and asset organization.
 
+### Bio Pages
 For bio pages, name them as such:
-bio_<first name>_<last name initial>_<year joined>.html
+bio_\<first name>\_\<last name initial>\_\<year joined>.html
+<br> For example, a bio page for me would be bio_matthew_cao_2023.html
+
