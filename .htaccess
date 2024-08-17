@@ -11,3 +11,5 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 
 # Rewrite apperance 
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+
