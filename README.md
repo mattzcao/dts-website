@@ -26,6 +26,6 @@ Anyway, let's create some conventions for file naming and asset organization.
 
 ### Bio Pages
 For bio pages, name them as such:
-bio_\<first name>\_\<last name initial>\_\<year joined>.html
+bio_\<first name>\_\<last name>.html
 <br> For example, a bio page for me would be bio_matthew_cao_2023.html
 

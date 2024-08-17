@@ -1,9 +1,13 @@
-#example.com/page will display the contents of example.com/page.html
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.+)$ $1.html [L,QSA]
+# code from https://www.youtube.com/watch?v=-6LyG9I-FPc
 
-#301 from example.com/page.html to example.com/page
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
-RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+# mod_rewrite starts here
+RewriteEngine on
+
+# does not apply to existing directories, meaning that if the folder exists on the server then don't change anything and don't run the rule
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check for file in directory with .html
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Rewrite apperance 
+RewriteRule ^(.*)$ $1.html [NC,L]
