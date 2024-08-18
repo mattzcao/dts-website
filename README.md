@@ -27,5 +27,7 @@ Anyway, let's create some conventions for file naming and asset organization.
 ### Bio Pages
 For bio pages, name them as such:
 bio_\<first name>\_\<last name>.html
-<br> For example, a bio page for me would be bio_matthew_cao_2023.html
+<br> For example, a bio page for me would be matthew.html
 
+### about.html
+Member cards are organized as so: music manager, then administrative director, then secretary, then officers (alphabetically by officer role name), then by non officer (by seniority).
