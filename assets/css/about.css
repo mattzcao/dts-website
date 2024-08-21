@@ -71,7 +71,7 @@
 .wrap {
 	position: relative;
 }
-.blah {
+.team-desc {
 	position: absolute;
 	height: 100%;
 	top: 0;
@@ -85,7 +85,7 @@
 	visibility: hidden;
 	opacity: 0;
 }
-.wrap:hover .blah {
+.wrap:hover .team-desc {
 	visibility: visible;
 	opacity: 1;
 }
