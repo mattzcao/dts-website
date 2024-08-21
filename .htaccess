@@ -1,4 +1,6 @@
-# code from https://www.youtube.com/watch?v=-6LyG9I-FPc
+# The following modifications allow so you can access a site, e.g. drawntoscale.berkeley.edu/about.html without the ".html" tag showing up. For vanity and professionalism. To put this into effect, when linking to sites with <a>, have href="about" instead of href="about.html" and it will show up as so in the user's url.
+
+# Tutorial from https://www.youtube.com/watch?v=-6LyG9I-FPc
 
 # mod_rewrite starts here
 RewriteEngine on
